@@ -3,7 +3,7 @@ import libroCtrl from "../services/ctrlLibro.js";
 
 const router = express.Router();
 
-router.get("/libros", libroCtrl.obtenerLibros);
+router.get("/libros", libroCtrl.consultarLibros);
 
 router.post("/libros", libroCtrl.agregarLibro);
 
